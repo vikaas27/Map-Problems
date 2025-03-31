@@ -18,3 +18,22 @@ public:
     }
 };
 
+//implementation of class using example
+int main() {
+    
+    vector<int> nums = {2, 7, 11, 15};
+    int target = 9;
+    
+    Solution solution;
+    vector<int> result = solution.twoSum(nums, target);
+    
+    
+    cout << "Indices: ";
+    for (int index : result) {
+        cout << index << " ";
+    }
+    cout << endl;
+    
+    return 0;
+}
+
